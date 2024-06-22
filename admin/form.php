@@ -6,6 +6,8 @@
     <title>Product</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 <body>
     
@@ -24,20 +26,20 @@
 
                 <form class="my-3" action="saveproduct.php" method="post">
                     <div class="mb-3">
-                        <label for="Pro_name" class="form-lable">ຊື່ສິນຄ້າ</label>
+                        <label for="pro_name" class="form-lable">ຊື່ສິນຄ້າ</label>
                         <input type="text" id="pro_name" name="pro_name" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label for="Detall" class="form-lable">ລາຍລະອຽດສິນຄ້າ</label>
+                        <label for="detall" class="form-lable">ລາຍລະອຽດສິນຄ້າ</label>
                         <input type="text" id="detall" name="detall" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label for="Price" class="form-lable">ລາຄາສິນຄ້າ</label>
-                        <input type="number" id="price" name="price" class="form-control" required>
+                        <label for="price" class="form-lable">ລາຄາສິນຄ້າ</label>
+                        <input type="text" id="price" name="price" class="form-control" required>
                     </div>
                     <div class="mb-3">
-                        <label for="Quantity" class="form-lable">ຈຳນວນສິນຄ້າ</label>
-                        <input type="number" id="quantity" name="quantity" class="form-control" required>
+                        <label for="quantity" class="form-lable">ຈຳນວນສິນຄ້າ</label>
+                        <input type="text" id="quantity" name="quantity" class="form-control" required>
                     </div>
                     <input type="submit" value="ບັນທືກ" class="btn btn-success">
                     <input type="reset" value="ຍົກເລີກ" class="btn btn-danger">

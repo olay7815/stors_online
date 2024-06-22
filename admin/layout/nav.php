@@ -13,22 +13,22 @@
           <a class="nav-link active" aria-current="page" href="home.php">ລາຍການສິນຄ້າ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ໝວດໝູ່ສິນຄ້າ</a>
+          <a class="nav-link active" aria-current="page" href="">ໝວດໝູ່ສິນຄ້າ</a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link" href="#">ຜູ້ຈັດສົ່ງສິນຄ້າ</a>
+          <a class="nav-link active" aria-current="page" href="">ຜູ້ຈັດສົ່ງສິນຄ້າ</a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link" href="">ລາຍການສັ່ງຊື້</a>
+          <a class="nav-link active" aria-current="page" href="">ລາຍການສັ່ງຊື້</a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link" href="">ແຈ້ງການໂອນເງິນ</a>
+          <a class="nav-link active" aria-current="page" href="">ແຈ້ງການໂອນເງິນ</a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link" href="">ຂໍ້ມູນລູກຄ້າ</a>
+          <a class="nav-link active" aria-current="page" href="">ຂໍ້ມູນລູກຄ້າ</a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link" href="">ໄປທີ່ໜ້າຮ້ານ</a>
+          <a class="nav-link active" aria-current="page" href="">ໄປທີ່ໜ້າຮ້ານ</a>
         </li> 
       </ul>
     </div>

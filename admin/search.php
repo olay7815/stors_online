@@ -1,21 +1,21 @@
 <?php
 include "connect.php";
-$sql= "SELECT * FROM product ORDER BY pro_name ASC";
+$pro_name=$_POST["pro_name"];
+$sql= "SELECT * FROM product WHERE pro_name LIKE '%$pro_name' ORDER BY pro_name ASC";
 $result = mysqli_query($conn, $sql);
 $count = mysqli_num_rows($result);
 $order = 1;
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
 
@@ -32,13 +32,13 @@ $order = 1;
                 <?php
                 include "layout/nav.php";
                 ?>
-                <h2 class="text-center my-3">ຂ້ໍມູນສິນຄ້າໃນຖານຂ້ໍມູນ</h2>
-                <hr>
-                <form action="search.php" method="post" class="form-group">
-                    <label for="search">ຄົ້ນຫາ:</label>
-                    <input type="text" name="pro_name" id="search" placeholder="ປ້ອນຊື່ສິນຄ້າ" class="form-control">
-                    <input type="submit" value="ຄົ້ນຫາ" class="btn btn-info my-2">
-                </form>
+                <h2 class="text-center my-3">ຄົ້ນຫາຂ້ໍມູນສິນຄ້າໃນຖານຂ້ໍມູນ</h2>
+                <!-- <hr>
+            <form action="search.php" method="post" class="form-group">
+            <label for="search">ຄົ້ນຫາ:</label>
+            <input type="text" name="pro_name" id="search" placeholder="ປ້ອນຊື່ສິນຄ້າ" class="form-control">
+            <input type="submit" value="ຄົ້ນຫາ" class="btn btn-info my-2">
+        </form> -->
                 <?php if ($count > 0) { ?>
                 <table class="table table-bordered border-dark">
                     <thead>
@@ -77,7 +77,6 @@ $order = 1;
             </div>
         </div>
     </div>
-
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>

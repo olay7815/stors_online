@@ -2,12 +2,12 @@
 include "connect.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $Pro_name = $_POST["pro_name"];
-    $Detall = $_POST["detall"];
-    $Price = $_POST["price"];
-    $Quantity = $_POST["quantity"];
+    $pro_name = $_POST["pro_name"];
+    $detall = $_POST["detall"];
+    $price = $_POST["price"];
+    $quantity = $_POST["quantity"];
 
-    $sql = "INSERT INTO product (pro_name, detall, price, quantity) VALUES ('$Pro_name', '$Detall', '$Price', '$Quantity')";
+    $sql = "INSERT INTO product (pro_name, detall, price, quantity) VALUES ('$pro_name', '$detall', '$price', '$quantity')";
 
     $result = mysqli_query($conn, $sql);
 
