@@ -27,9 +27,6 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="">ຂໍ້ມູນລູກຄ້າ</a>
         </li> 
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="">ໄປທີ່ໜ້າຮ້ານ</a>
-        </li> 
       </ul>
     </div>
   </div>

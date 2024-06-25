@@ -23,22 +23,16 @@ $order = 1;
     <div class="container">
 
         <div class="row ">
-            <div class="col-3 my-3">
+            <div class="col-md-3 ">
                 <?php
                 include "layout/sidebar.php";
                 ?>
             </div>
-            <div class="col-9 my-3">
+            <div class="col-md-9 ">
                 <?php
                 include "layout/nav.php";
                 ?>
                 <h2 class="text-center my-3">ຄົ້ນຫາຂ້ໍມູນສິນຄ້າໃນຖານຂ້ໍມູນ</h2>
-                <!-- <hr>
-            <form action="search.php" method="post" class="form-group">
-            <label for="search">ຄົ້ນຫາ:</label>
-            <input type="text" name="pro_name" id="search" placeholder="ປ້ອນຊື່ສິນຄ້າ" class="form-control">
-            <input type="submit" value="ຄົ້ນຫາ" class="btn btn-info my-2">
-        </form> -->
                 <?php if ($count > 0) { ?>
                 <table class="table table-bordered border-dark">
                     <thead>

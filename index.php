@@ -37,13 +37,20 @@ exit(0);
       include "layout/sidebar.php";
       ?>
       </div>
-      <div class="col-9">
+      <div class="col-md-9">
         <div class="container my-2">
           <div class="row">
-            <div class="col-6 my-5">
-              <img src="http://localhost/hostit/images/slider-img.png" width="400px" alt="" srcset="">
+            <div class="col-md-4 my-5">
+            <h2 class="text-center ">Welcome</h2>
+            <a href="#"><img src="http://localhost/hostit/images/slider-img.png" width="300px" alt="" srcset=""></a>
+              <p class="text-center my-3">Lorem ipsum dolor sit amet.</p>
             </div>
-            <div class="col-6 ">
+            <div class="col-md-4 my-5">
+            <h2 class="text-center ">Welcome</h2>
+              <a href="#"><img src="http://localhost/hostit/images/slider-img.png" width="300px" alt="" srcset=""></a>
+              <p class="text-center my-3">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-md-4 ">
               <main>
                 <section class="hero text-center my-5">
                   <h1>Welcome to our Responsive Page</h1>
@@ -54,17 +61,37 @@ exit(0);
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna a tincidunt bibendum,
                     magna nulla ultrices neque, id faucibus sem arcu vel massa.</p>
                 </section>
-                <section class="content text-center my-2">
-                  <h1>Hello world.</h1>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem repudiandae modi ea,
-                    consectetur repellat iusto aut sequi eaque ipsam explicabo!</p>
-                </section>
+                
               </main>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3 mt-2 ">
+      <h3 class="text-center text-primary">Hello</h3>
+        <a href=""><img src="https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg" width="300px" alt=""></a>
+      <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, possimus!</p>
+      </div>
+      <div class="col-md-3 mt-2 ">
+      <h3 class="text-center text-primary">Hello</h3>
+      <a href=""><img src="https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg" width="300px" alt=""></a>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, possimus!</p>
+      </div>
+      <div class="col-md-3 mt-2 ">
+      <h3 class="text-center text-primary">Hello</h3>
+      <a href=""><img src="https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg" width="300px" alt=""></a>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, possimus!</p>
+      </div>
+      <div class="col-md-3 mt-2 ">
+      <h3 class="text-center text-primary">Hello</h3>
+      <a href=""><img src="https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg" width="300px" alt=""></a>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, possimus!</p>
+      </div>
+    </div>
+  </div>
     <?php
     include "layout/footer.php";
     ?>
